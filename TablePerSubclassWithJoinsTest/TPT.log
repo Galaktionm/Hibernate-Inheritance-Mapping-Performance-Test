@@ -1,0 +1,109 @@
+2000 items, one for each subclass
+
+INFO  TPT - Started persisting data 
+INFO  TPT - Persisting data finished 
+INFO  TPT - Time in milliseconds: 6438 
+INFO  TPT - Items added: 2000 
+
+INFO  TPT - Started persisting data 
+INFO  TPT - Persisting data finished 
+INFO  TPT - Time in milliseconds: 19581 
+INFO  TPT - Items added: 2000 
+
+INFO  TPT - Started persisting data 
+INFO  TPT - Persisting data finished 
+INFO  TPT - Time in milliseconds: 17927 
+INFO  TPT - Items added: 2000 
+
+INFO  TPT - Started persisting data 
+INFO  TPT - Persisting data finished 
+INFO  TPT - Time in milliseconds: 17095 
+INFO  TPT - Items added: 2000 
+
+INFO  TPT - Started persisting data 
+INFO  TPT - Persisting data finished 
+INFO  TPT - Time in milliseconds: 17551 
+INFO  TPT - Items added: 2000 
+
+
+### Separator ###
+
+
+2000 items, one for each subclass, querying All items:
+
+INFO  TPT - Querying all items 
+INFO  TPT - Query time in milliseconds: 310 
+
+INFO  TPT - Querying all items 
+INFO  TPT - Query time in milliseconds: 339 
+
+INFO  TPT - Querying all items 
+INFO  TPT - Query time in milliseconds: 383 
+
+
+### Separator ###
+
+
+2000 items, one for each subclass, querying subclass:
+// Note that this query returns all the items of this class's subclasses
+// For example, querying ItemA returns ItemAA, ItemAB and ItemAC items
+
+INFO  TPT - Querying ItemC subclass's items 
+INFO  TPT - Query time in milliseconds: 162
+ 
+INFO  TPT - Querying ItemC subclass's items 
+INFO  TPT - Query time in milliseconds: 179
+
+INFO  TPT - Querying ItemC subclass's items 
+INFO  TPT - Query time in milliseconds: 192 
+
+
+### Separator ###
+
+
+2000 items, one for each subclass, querying sub-subclass:
+
+INFO  TPT - Querying ItemDA subclass's items 
+INFO  TPT - Query time in milliseconds: 85 
+
+INFO  TPT - Querying ItemDA subclass's items 
+INFO  TPT - Query time in milliseconds: 84 
+
+INFO  TPT - Querying ItemDA subclass's items 
+INFO  TPT - Query time in milliseconds: 96 
+
+
+### Separator ###
+
+
+2000 items, one for each subclass, custom query:
+
+INFO  TPT - Query time in milliseconds: 65 
+INFO  TPT - Results returned: 6 
+
+INFO  TPT - Query time in milliseconds: 66 
+INFO  TPT - Results returned: 3 
+
+INFO  TPT - Query time in milliseconds: 67 
+INFO  TPT - Results returned: 4 
+
+INFO  TPT - Query time in milliseconds: 68 
+INFO  TPT - Results returned: 4 
+
+INFO  TPT - Query time in milliseconds: 66 
+INFO  TPT - Results returned: 1 
+
+INFO  TPT - Query time in milliseconds: 69 
+INFO  TPT - Results returned: 2 
+
+INFO  TPT - Query time in milliseconds: 67 
+INFO  TPT - Results returned: 6 
+
+INFO  TPT - Query time in milliseconds: 67 
+INFO  TPT - Results returned: 6 
+
+INFO  TPT - Query time in milliseconds: 73 
+INFO  TPT - Results returned: 4 
+
+INFO  TPT - Query time in milliseconds: 125 
+INFO  TPT - Results returned: 3 

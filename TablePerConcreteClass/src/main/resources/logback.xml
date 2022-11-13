@@ -1,0 +1,23 @@
+<configuration>
+
+ <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+        <pattern>%date{HH:mm:ss.SSS} %-5p %logger{36} %X{akkaSource} [%file:%line] - %m%n</pattern>
+    </encoder>
+</appender>
+
+ <appender name="TPC" class="ch.qos.logback.core.FileAppender">
+        <file>TPC.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%-5level %logger{35} - %msg %n</pattern>
+        </encoder>
+ </appender>
+
+    <logger name="TPC" level="ALL">
+        <appender-ref ref="TPC"/>
+    </logger>
+     <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

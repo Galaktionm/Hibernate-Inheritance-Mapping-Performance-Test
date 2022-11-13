@@ -1,0 +1,238 @@
+
+800 items:
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 7585 
+INFO  TPC - Items added: 800 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 7572 
+INFO  TPC - Items added: 800 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 7340 
+INFO  TPC - Items added: 800 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 7785 
+INFO  TPC - Items added: 800 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 7370 
+INFO  TPC - Items added: 800 
+
+1000 items:
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 9099 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 6881 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 8040 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 8918 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 9375 
+INFO  TPC - Items added: 1000 
+
+1000 items, one subclass, one sub-subclass:
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 8870 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 8785 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 8780 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 8945 
+INFO  TPC - Items added: 1000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 8901 
+INFO  TPC - Items added: 1000 
+
+2000 items, 1 from each concrete class
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 5726 
+INFO  TPC - Items added: 2000
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 5315 
+INFO  TPC - Items added: 2000
+ 
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 5358 
+INFO  TPC - Items added: 2000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 5636 
+INFO  TPC - Items added: 2000
+ 
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 14496 
+INFO  TPC - Items added: 2000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 17227 
+INFO  TPC - Items added: 2000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 12975 
+INFO  TPC - Items added: 2000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 14489 
+INFO  TPC - Items added: 2000
+ 
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 15471 
+INFO  TPC - Items added: 2000
+ 
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 15082 
+INFO  TPC - Items added: 2000 
+
+Rerun:
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 9318 
+INFO  TPC - Items added: 2000
+ 
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 15498 
+INFO  TPC - Items added: 2000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 14319 
+INFO  TPC - Items added: 2000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 14983 
+INFO  TPC - Items added: 2000 
+
+INFO  TPC - Started persisting data 
+INFO  TPC - Persisting data finished 
+INFO  TPC - Time in milliseconds: 14242 
+INFO  TPC - Items added: 2000 
+
+
+###Separator###
+
+
+2000 items, one for each subclass, querying all items:
+
+INFO  TPC - Querying all items 
+INFO  TPC - Query time in milliseconds: 133 
+
+INFO  TPC - Querying all items 
+INFO  TPC - Query time in milliseconds: 120 
+
+INFO  TPC - Querying all items 
+INFO  TPC - Query time in milliseconds: 128 
+
+
+###Separator###
+
+
+2000 items, one for each subclass, querying subclass:
+
+INFO  TPC - Querying ItemC subclass's items 
+INFO  TPC - Query time in milliseconds: 102 
+
+INFO  TPC - Querying ItemC subclass's items 
+INFO  TPC - Query time in milliseconds: 103 
+
+INFO  TPC - Querying ItemC subclass's items 
+INFO  TPC - Query time in milliseconds: 107 
+
+
+###Separator###
+
+
+2000 items, one for each subclass, querying sub-subclass:
+
+INFO  TPC - Querying ItemDA subclass's items 
+INFO  TPC - Query time in milliseconds: 86 
+
+INFO  TPC - Querying ItemDA subclass's items 
+INFO  TPC - Query time in milliseconds: 97 
+
+INFO  TPC - Querying ItemDA subclass's items 
+INFO  TPC - Query time in milliseconds: 92 
+
+
+###Separator###
+
+
+2000 items, one for each subclass, custom query:
+
+INFO  TPC - Query time in milliseconds: 69 
+INFO  TPC - Results returned: 4 
+
+INFO  TPC - Query time in milliseconds: 68 
+INFO  TPC - Results returned: 5
+ 
+INFO  TPC - Query time in milliseconds: 140 
+INFO  TPC - Results returned: 2 
+
+INFO  TPC - Query time in milliseconds: 69 
+INFO  TPC - Results returned: 5 
+
+INFO  TPC - Query time in milliseconds: 103 
+INFO  TPC - Results returned: 10 
+
+INFO  TPC - Query time in milliseconds: 65 
+INFO  TPC - Results returned: 5 
+
+INFO  TPC - Query time in milliseconds: 66 
+INFO  TPC - Results returned: 2 
+
+INFO  TPC - Query time in milliseconds: 68 
+INFO  TPC - Results returned: 3 
+
+INFO  TPC - Query time in milliseconds: 68 
+INFO  TPC - Results returned: 4 
+
+INFO  TPC - Query time in milliseconds: 63 
+INFO  TPC - Results returned: 8 
